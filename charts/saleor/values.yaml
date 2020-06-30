@@ -112,12 +112,13 @@ global:
     password: w6736iu-1346726hz12-578-2h228u3576jh24658-456h
   emailUrl: smtp://test@triebwork.com:XXXXXXXX@smtp.mailgun.org:465/?ssl=True
   secretKey: sefb68-2133r-24577v-tgnqetb-qe5zb
-  AWS_S3_ENDPOINT_URL:
-  AWS_S3_CUSTOM_DOMAIN:
-  AWS_ACCESS_KEY_ID:
-  AWS_STORAGE_BUCKET_NAME:
-  AWS_MEDIA_BUCKET_NAME:
-  AWS_MEDIA_CUSTOM_DOMAIN:
+  AWS_ACCESS_KEY_ID: "AKIASQXQE2GTQHV3FW6A"
+  AWS_S3_ENDPOINT_URL: "s3.eu-west-2.amazonaws.com"
+  AWS_MEDIA_BUCKET_NAME: "eazyshopping-saleor-media"
+  AWS_MEDIA_CUSTOM_DOMAIN: "https://eazyshopping-saleor-media.s3.eu-west-2.amazonaws.com"
+  AWS_SECRET_ACCESS_KEY: "yLNf3WqnJpv66Bm5sj8XL8Xbq0LYUb93vCAqFufF"
+  AWS_S3_CUSTOM_DOMAIN: "https://eazyshopping-saleor-static.s3.eu-west-2.amazonaws.com"
+  AWS_STORAGE_BUCKET_NAME: "eazyshopping-saleor-static"
   # this enables querystring authentication. Very useful for private buckets.
   AWS_QUERYSTRING_AUTH: True
   # this tells django how long the item is accessible with querystring auth. Setting this to five days
